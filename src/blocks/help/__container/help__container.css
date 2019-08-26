@@ -1,0 +1,19 @@
+@import url('../__header/help__header.css');
+@import url('../__form/help__form.css');
+@import url('../__buttons/help__list.css');
+@import url('../__reccurent__payment/reccurent__payment.css');
+@import url('../__single__payment/single__payment.css');
+@import url('../__unsubscribe__link/unsubscribe__link.css');
+@import url('../__unsubscribe/help__unsubscribe.css');
+@import url('../__checkout__container/checkout__container.css');
+
+.help__container {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+         
+}
+

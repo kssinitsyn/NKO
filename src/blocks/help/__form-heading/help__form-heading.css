@@ -1,0 +1,29 @@
+.help__form-heading {
+    font-family: DINPro;
+    font-size: 20px;
+    line-height: 135%;
+    text-align: center;
+    color: #141414;
+    margin: 36px auto 0;
+    max-width: 578px;
+}
+
+/* @media screen and (max-width: 700px) {
+    .help__form-heading {
+        max-width: 578px;
+        
+    }
+} */
+
+@media screen and (max-width: 320px) {
+    .help__form-heading {
+        width: 288px;
+        height: 40px;        
+        font-family: DINPro;
+        font-size: 16px;
+        line-height: 125%;
+        text-align: center;
+        letter-spacing: 0.25px;
+        
+    }
+}

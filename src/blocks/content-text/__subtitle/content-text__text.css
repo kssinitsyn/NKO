@@ -1,0 +1,42 @@
+.content-text__text {
+    width: 672px;
+    margin: 20px auto 212px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #141414;
+}
+
+@media screen and (max-width: 1024px) {
+    .content-text__text {
+        width: 632px;
+
+        margin-bottom: 188px;
+
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-text__text {
+        width: 460px;
+
+        margin-bottom: 158px;
+
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content-text__text {
+        width: 288px;
+
+        margin-bottom: 138px;
+
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

@@ -1,0 +1,44 @@
+.footer__logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -8px;
+    height: 80px;
+}
+
+.footer__logo img {
+    width: 80px;
+    height: 80px;
+}
+
+@media (max-width: 1024px) {
+    .footer__logo {
+        max-width: 960px;
+        margin: 0px;
+        height: 60px;
+    }
+
+    .footer__logo img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    
+}
+
+@media (max-width: 375px) {
+
+    
+}
+
+@media (max-width: 321px) {
+    .footer__logo {
+        order: 1;
+        max-width: 120px;
+        flex-direction: column;
+        height: auto;
+    }
+}

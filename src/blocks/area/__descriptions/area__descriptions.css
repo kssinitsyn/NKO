@@ -1,0 +1,35 @@
+.area__descriptions {
+    max-width: 460px;
+    text-align: right;
+    align-self: flex-end;
+    margin: 24px 0px 16px;
+}
+@media (max-width: 1025px) {
+    .area__descriptions {
+        margin: 38px 0px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+      .area__descriptions {
+        max-width: 360px;
+        margin: 24px 0px 24px;
+    }   
+    
+}
+
+
+
+@media (min-width: 321px) and (max-width: 767px) {
+    .area__descriptions {
+        max-width: 90%;
+        align-self: center;
+    }
+}
+
+@media (max-width: 321px){
+    .area__descriptions {
+      margin: 24px 16px 23px;
+    }       
+}
+

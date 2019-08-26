@@ -1,0 +1,48 @@
+.donate__list {
+    max-width: 752px;
+
+    margin: 40px auto 0;
+
+    list-style: none;
+
+    display: flex;
+}
+
+@media screen and (max-width: 840px) {
+    .donate__list {
+        max-width: 384px;
+
+        margin: 28px auto 0;
+        padding: 0;
+
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .donate__list {
+        max-width: 384px;
+
+        margin: 28px auto 0;
+        padding: 0;
+
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .donate__list {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .donate__list {
+        max-width: 256px;
+
+        margin: 28px auto 0;
+        padding: 0;
+
+        flex-wrap: wrap;
+    }
+}

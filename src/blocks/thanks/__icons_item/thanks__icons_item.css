@@ -1,0 +1,8 @@
+.thanks__icons_item {
+    padding: 20px;
+    margin: 0;        
+}
+
+.thanks__icons_item:last-child {
+    color: red;
+}

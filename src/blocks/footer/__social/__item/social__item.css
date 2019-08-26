@@ -1,0 +1,32 @@
+.social__item {
+    margin: 0px 0px 0px 26px;
+    width: 26px;
+    height: 26px;
+}
+
+.social__item:first-of-type {
+    margin-left: 0px;
+}
+
+
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+    .social__item {
+        width: 24px;
+        height: 24px;        
+    }
+    
+}
+
+@media (max-width: 375px) {
+
+    
+}
+
+@media (max-width: 321px) {
+
+}

@@ -1,0 +1,35 @@
+.about__count-description {
+    width: 144px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 135%;
+    letter-spacing: 0.25px;  
+    font-weight: 400;
+}
+@media (max-width: 1025px) {
+
+}
+
+@media (max-width: 768px) {
+    .about__count-description {
+      font-size: 16px;
+      line-height: 125%;
+      width: 120px;
+    }
+    
+}
+
+@media (max-width: 680px) {
+  .about__count-description {
+    margin: 0 auto;
+  }
+    
+}
+
+@media (max-width: 321px) {
+  .about__count-description {
+    font-size: 16px;
+    line-height: 125%;
+    width: 120px;
+  }
+}

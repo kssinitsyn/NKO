@@ -1,0 +1,63 @@
+
+
+@import url('./__active/reccurent__payment__active.css');
+
+
+.reccurent__payment {
+    width: 260px;
+    height: 40px;
+    border: 2px solid #0493CE;
+    background: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.7px;
+    text-align: center;
+    outline: none;
+    margin: 60px 48px 0 0;    
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+
+.reccurent__payment:hover {
+    background: #969696;
+    color: #141414;
+    border: none;
+    outline: none;
+    transition: 0.3s;    
+}
+
+.reccurent__payment:focus {
+    background: #0493CE;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 414px) {
+    .reccurent__payment {
+        align-self: center;
+        margin: 48px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 398px) {
+    .reccurent__payment {
+        margin-right: 0;     
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .reccurent__payment {
+       margin: 0 auto;                    
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .reccurent__payment {
+       margin: 60px auto 0;     
+    }
+}

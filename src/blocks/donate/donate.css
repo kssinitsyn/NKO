@@ -1,0 +1,69 @@
+@import url('./__button/donate__button.css');
+@import url('./__help-btn/donate__help-btn.css');
+@import url('./__help-info/donate__help-info.css');
+@import url('./__help-line/donate__help-line.css');
+@import url('./__item/donate__item.css');
+@import url('./__list-title/donate__list-title.css');
+@import url('./__list/donate__list.css');
+@import url('./__subtitle/donate__subtitle.css');
+@import url('./__title/donate__title.css');
+@import url('./__wrapper/donate__wrapper.css');
+@import url('./__line-progress/donate__line-progress.css');
+/* @import url('./__image/donate__image.css'); */
+
+@keyframes scale-for-center {
+    from {
+        transform: scale(00);
+    }
+    to {
+        transform: scale(1.0);
+    }
+}
+
+.donate {
+    padding: 140px 0 0 0;
+
+    background-image: url('../../images/zal_l.png');
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+
+    max-width: 1440px;
+
+    margin: 0 auto;
+
+    animation: scale-for-center 1s ease-in-out;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .donate {
+        max-width: 1024px;
+
+        padding: 144px 0 0 0;
+
+        background-image: url('../../images/zal_m.png');
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .donate {
+        max-width: 768px;
+
+        padding: 72px 0 0 0;
+
+        background-image: url('../../images/zal_s.png');
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .donate {
+        max-width: 320px;
+
+        padding: 88px 0 0 0;
+
+        background-image: url('../../images/zal_xs.png');
+        background-size: contain;
+    }
+}

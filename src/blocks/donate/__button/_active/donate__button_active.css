@@ -1,0 +1,7 @@
+.payment__sum.donate__button_active,
+.donate__button.donate__button_active {
+    background: #0493CE;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,33 @@
+@import url("./__souvenirs-grid__item/summary-one__souvenirs-grid__item.css");
+
+.summary-one__souvenirs-grid { 
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) minmax(150px, 1fr) minmax(150px, 1fr);
+  grid-column-gap: 30px;
+  margin: 23px auto 0;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .summary-one__souvenirs-grid {
+    /* grid-template-columns: 300px 300px 300px;   */
+    max-width: 960px;
+    margin-top: 20px;
+    /* grid-column-gap: 10px;   */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .summary-one__souvenirs-grid {
+    max-width: 670px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 0px;    
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .summary-one__souvenirs-grid {
+    display: none;
+  }
+}

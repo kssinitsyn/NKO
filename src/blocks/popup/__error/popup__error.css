@@ -1,0 +1,20 @@
+.popup__error {    
+font-family: DINPro;
+font-weight: 400;
+font-size: 14px;
+line-height: 135%;
+letter-spacing: 0.25px;
+color: #D1202B;
+width: 327px;
+margin-top: 4px;
+text-align: left;
+display: none;
+}
+
+
+@media screen and (max-width: 320px) {
+    .popup__error {
+        margin: 4px auto 0;
+        width: 288px;
+    }
+}

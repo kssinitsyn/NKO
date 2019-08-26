@@ -1,0 +1,37 @@
+.summary-two__comment-title {
+    font-family: 'DINPro';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #141414;
+    margin: 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+@media screen and (max-width: 1024px) {
+    .summary-two__comment-title {
+        width: 225px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .summary-two__comment-title {
+        font-size: 18px;
+        line-height: 24px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 100%;
+        text-align: center;
+        padding-top: 12px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .summary-two__comment-title {
+        padding-top: 36px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

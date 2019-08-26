@@ -1,0 +1,44 @@
+.skills__text {
+    margin: 20px auto 0;
+    width: 685px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    
+    color: #141414;
+}
+
+@media screen and (max-width: 1024px) {
+    .skills__text {
+        width: 632px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .skills__text {
+        max-width: 460px;
+        margin: 16px auto 0;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 0.25px;
+    }
+}
+
+@media screen and (max-width: 462px) {
+    .skills__text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .skills__text {
+        margin: 16px auto 0;
+        width: 288px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

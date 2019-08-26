@@ -1,0 +1,26 @@
+.header__text {
+    max-width: 476px;
+    font-size: 13px;
+    line-height: 124%;
+}
+
+@media screen and (max-width: 863px) {
+    .header__text {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .header__text {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__text {
+        margin-right: 0;
+        margin-left: 0;
+        display: none;
+    }
+}

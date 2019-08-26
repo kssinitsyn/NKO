@@ -1,0 +1,42 @@
+@import url('./__content/about__content.css');
+@import url('./__title/about__title.css');
+@import url('./__subtitle/about__subtitle.css');
+@import url('./__counts/about__counts.css');
+@import url('./__count/about__count.css');
+@import url('./__count-value/__count-value.css');
+@import url('./__count-description/__count-description.css');
+@import url('./__description/about__description.css');
+@import url('./__description-text/about__description-text.css');
+@import url('./__programms/about__programms.css');
+@import url('./__list/__list.css');
+
+.about {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 60px 0px 90px;
+  background-color: rgba(221, 221, 221, 0.4);
+}
+
+@media (max-width: 1025px) {
+    .about {
+      max-width: 1024px;
+      padding: 60px 0px 107px;
+    }   
+}
+
+@media (min-width: 321px) and (max-width: 768px)  {
+    .about {
+      padding: 60px 0px 66px;
+      max-width: 768px;
+    }  
+    
+}
+
+@media (max-width: 321px) {
+    .about {
+      padding: 40px 0px 60px;
+    }   
+}
+
+
+

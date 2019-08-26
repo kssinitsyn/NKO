@@ -1,0 +1,15 @@
+.thanks__close {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 596px;
+  top: 190px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .thanks__close {
+    left: 286px;
+    top: 323px;
+  }
+}

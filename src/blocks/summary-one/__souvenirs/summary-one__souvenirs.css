@@ -1,0 +1,30 @@
+@import url("./__souvenirs-header/summary-one__souvenirs-header.css");
+@import url("./__souvenirs-grid/summary-one__souvenirs-grid.css");
+
+.summary-one__souvenirs {
+  max-width: 1200px;
+  margin: 0 auto 0;
+}
+
+@media (min-width: 1023px) {
+  .summary-one__souvenirs {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .summary-one__souvenirs {
+    max-width: 704px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 321px) {
+  .summary-one__souvenirs {
+    width: 288px;
+    margin: 0 auto;
+  }
+}

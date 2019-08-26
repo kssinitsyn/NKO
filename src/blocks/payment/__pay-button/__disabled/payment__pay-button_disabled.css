@@ -1,0 +1,24 @@
+.button.payment.button.payment__pay-button_disabled {   
+        width: 220px;
+        height: 44px;
+        font-family: DINPro;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+        color: #dddddd;
+        border: 2px solid #dddddd;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background-color: white;
+      }
+      
+      .button.payment.button.payment__pay-button_disabled {   
+        background-color: white;
+        color: #dddddd;
+        border: 2px solid #dddddd;
+        cursor: default;
+      }
+      

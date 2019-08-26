@@ -1,0 +1,11 @@
+.summary-one__souvenirs-grid__item-image {
+  width: 100%;    
+  margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+      .summary-one__souvenirs-grid__item-image {
+        max-width: 300px;
+        max-height: 208px;
+      }
+    }

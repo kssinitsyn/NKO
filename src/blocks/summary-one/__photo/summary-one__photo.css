@@ -1,0 +1,34 @@
+.summary-one__photo {
+    order: 3;
+    margin-top: 60px;
+}
+
+.summary-one__photo img {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (min-width: 767px) and (max-width: 1023px){
+    .summary-one__photo {
+        order: 5;
+        margin-top: 0px;
+    }
+  
+}
+@media (max-width: 767px) {
+    .summary-one__photo {
+        order: 3;
+        margin-top: 0px;
+    }
+  
+}
+
+
+@media (max-width: 321px) {
+    .summary-one__photo {
+        order: 3;
+    }
+}

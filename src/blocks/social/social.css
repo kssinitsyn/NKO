@@ -1,0 +1,16 @@
+@import url('./__image/social__image.css');
+@import url('./__item/social__item.css');
+@import url('./__link/social__link.css');
+@import url('./__list/social__list.css');
+
+@media screen and (max-width: 768px) {
+    .social {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .social {
+        display: none;
+    }
+}

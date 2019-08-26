@@ -1,0 +1,39 @@
+.donate__list-title {
+    width: 168px;
+    margin: 45px auto 0;
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .donate__list-title {
+        width: 170px;
+        margin: 32px auto 0;
+
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .donate__list-title {
+        width: 151px;
+        margin: 32px auto 0;
+
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .donate__list-title {
+        width: 134px;
+        margin: 24px auto 0;
+
+        font-size: 16px;
+        line-height: 20px;
+    }
+}

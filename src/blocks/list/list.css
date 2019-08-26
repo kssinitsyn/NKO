@@ -1,0 +1,5 @@
+@import url('./__item/__item.css');
+
+.list {
+    display: inline;
+}

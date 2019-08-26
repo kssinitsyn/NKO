@@ -1,0 +1,39 @@
+.popup__content {
+  width: 692px;
+  max-height: 730px;
+  background: #ffffff;
+  border-radius: 12px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 40px 36px;
+}
+
+@media screen and (max-width: 540px) {
+  .popup__content {
+    width: calc(100% - 60px);
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+  .popup__content {
+    width: 320px;
+    border-radius: 12px 12px 0px 0px;
+    padding: 0;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.2, .42, .63, .92);
+    padding-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .popup__content {
+    border-radius: 12px 12px 0px 0px;
+    padding: 0;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.2, .42, .63, .92);
+    padding-bottom: 5px;
+  }
+}

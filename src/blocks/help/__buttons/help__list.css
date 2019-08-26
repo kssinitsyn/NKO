@@ -1,0 +1,60 @@
+@import url('../__payment__button/payment__button.css');
+@import url('../__item/payment__item.css');
+
+.help__list {
+    margin: 52px auto 0;
+    padding: 0;    
+} 
+
+@media screen and (max-width: 867px) {
+    .help__list {
+        display: grid;
+        grid-template-columns: 17% 17% 17%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;         
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .help__list {
+        display: grid;
+        grid-template-columns: 17% 17% 17%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;         
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 626px) {
+    .help__list {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;         
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .help__list {
+        margin-top: 36px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .help__list {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;         
+        justify-content: center;
+        padding-bottom: 0;
+    }
+}

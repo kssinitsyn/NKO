@@ -1,0 +1,6 @@
+.payment__sum.payment__sum_active {
+    background: #0493CE;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}

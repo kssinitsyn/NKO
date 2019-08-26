@@ -1,0 +1,28 @@
+.popup__close {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 650px;
+  top: 16px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+  .popup__close {
+    left: 654px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .popup__close {
+    left: 291px;
+    top: 7px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .popup__close {
+    left: 280px;
+    top: 12px;
+  }
+}

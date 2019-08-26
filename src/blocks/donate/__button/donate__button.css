@@ -1,0 +1,102 @@
+@import url('./_active/donate__button_active.css');
+
+.donate__button {
+    width: 112px;
+    height: 44px;
+    border: 1px solid #969696;
+    background: rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 22px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    outline: none;
+    padding: 12px 0;    
+}
+
+.donate__button:last-child {    
+    line-height: 16px;
+}
+
+.donate__button:hover {
+    background: #969696;
+    color: #141414;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+}
+
+.donate__button:focus {
+    background: #0493CE;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+}
+
+.donate__button_input:hover {    
+    border: 1px solid #969696;
+    color: #141414;    
+} 
+
+ /* input.donate__button_input::placeholder {
+    font-family: DINPro;
+    font-size: 18px;
+    line-height: 125%;
+    text-align: center;
+    color: #141414;
+} */
+
+ .donate input.donate__button_input::placeholder {
+    font-family: DINPro;
+    font-size: 13px;
+    line-height: 125%;
+    text-align: center;
+    color: #141414;
+    font-weight: 700;
+}
+
+    
+.donate input.donate__button_input:placeholder-shown {
+    padding-top: 12px;
+ }
+
+.help input.donate__button_input::placeholder {
+    font-family: DINPro;
+    font-size: 13px;
+    line-height: 125%;
+    text-align: center;
+    color: #141414;
+    font-weight: 700;
+}
+
+    
+.help input.donate__button_input:placeholder-shown {
+    padding-top: 12px;
+ }
+    
+input.donate__button_input:placeholder-shown {
+    padding-top: 5px;
+ }
+
+@media screen and (max-width: 319px) {
+    input.donate__button_input::placeholder {
+        font-size: 13px;
+        line-height: 125%;
+    }
+
+    input.donate__button_input:placeholder-shown {
+       padding-top: 10px;
+    }
+}
+
+
+.donate__button_input[data-value=custom]:focus {
+    background: #FFFFFF;
+    color: #141414;
+    border: 2px solid #0493CE;
+    outline: none;
+}
+input[type="number"] {
+    -moz-appearance: textfield;    
+}

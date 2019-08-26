@@ -1,0 +1,36 @@
+@import url('./__subtitle/content-text__text.css');
+@import url('./__title/content-text__title.css');
+
+.content-text {
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .content-text {
+        max-width: 960px;
+    
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-text {
+        max-width: 704px;
+    
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-text__text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content-text {
+        max-width: 288px;
+    
+        margin: 0 auto;
+    }
+}

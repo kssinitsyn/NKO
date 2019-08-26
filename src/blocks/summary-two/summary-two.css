@@ -1,0 +1,33 @@
+@import url(./__about/summary-two__about.css);
+@import url(./__comment/summary-two__comment.css);
+@import url(./__photo/summary-two__photo.css);
+@import url(./__container/summary-two__container.css);
+@import url(./__quote/summary-two__quote.css);
+@import url(./__photo-pic/summary-two__photo-pic.css);
+@import url(./__photo-title/summary-two__photo-title.css);
+@import url(./__comment-commentator/summary-two__comment-commentator.css);
+@import url(./__comment-text/summary-two__comment-text.css);
+@import url(./__comment-title/summary-two__comment-title.css);
+
+.summary-two {
+    max-width: 1440px;
+    background: rgba(221, 221, 221, 0.4);
+}
+
+@media screen and (max-width: 1024px) {
+    .summary-two {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .summary-two {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .summary-two {
+        max-width: 320px;
+    }
+}

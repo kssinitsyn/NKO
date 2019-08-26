@@ -1,0 +1,126 @@
+.area__illustration {
+    position: relative;
+}
+
+.area__illustration img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.area__illustration_first {
+    max-width: 684px;
+    max-height: 456px;
+    order: 1;
+    overflow: hidden;
+}
+
+.area__illustration_first .illustration__caption {
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+}
+
+
+.area__illustration_second {
+    order: 2;
+    margin: 0px 0px 0px 148px;
+}
+
+.area__illustration_second .illustration__caption {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+}
+
+.illustration__caption {
+    font-family: 'DINPro';
+    font-size: 14px;
+    line-height: 135%;    
+    font-weight: 400;
+}
+
+
+@media (max-width: 1025px) {
+    .area__illustration_first {
+        max-width: 500px;
+        max-height: 380px;
+    }
+
+    .area__illustration_second {
+        margin: 0px 0px 0px 108px;
+        max-width: 416px;
+        max-height: 536px;
+    }
+}
+
+@media (max-width: 768px) {
+    .illustration__caption {
+        display: none;
+    }      
+
+    .area__illustration_second {
+        margin-left: 28px;
+        overflow: hidden;
+        width: 416px;
+        height: 412px;
+    }
+
+
+    .area__illustration_first {
+        width: 500px;
+        max-height: 380px;
+        overflow: hidden;
+    }
+
+    .area__illustration_first img {
+        width: 500px;
+        height: 380px;
+        margin-left: 25px;
+    }
+    
+}
+
+
+@media (max-width: 767px) {
+    .area__illustration_second {
+        order: 3;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+
+    .area__illustration_first {
+        margin: 0 auto;
+    }
+
+
+    .area__illustration_first img {
+        width: 100%;
+        margin: 0;
+        height: auto;
+    }
+}
+
+@media (max-width: 321px){
+    .illustration__caption {
+        display: none;
+    }   
+
+    .area__illustration_second {
+        margin: 0px;
+        order: 3;
+        width: 100%;
+    }
+
+    .area__illustration_second img {
+        margin-left: 0px;
+        width: 100%;
+    }
+    .area__illustration_first img {
+        margin-left: 0px;
+        min-width: 320px;
+        min-height: 280px;
+    }
+}
+

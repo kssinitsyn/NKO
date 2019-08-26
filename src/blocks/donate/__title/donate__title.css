@@ -1,0 +1,42 @@
+.donate__title {
+    max-width: 966px;
+
+    padding: 60px 0 0 0;
+    margin: 0 auto;
+
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 67px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+    .donate__title {
+        max-width: 833px;
+
+        font-size: 50px;
+        line-height: 57px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .donate__title {
+        max-width: 600px;
+        
+        font-size: 36px;
+        line-height: 41px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .donate__title {
+        max-width: 287px;
+        
+        padding: 40px 0 0 0;
+
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 34px;
+    }
+}

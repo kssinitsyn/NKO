@@ -1,0 +1,46 @@
+.summary-three__photo {
+    background: url(../../../images/nina.jpg);
+    width: 680px;
+    height: 440px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+@media screen and (max-width: 1025px) {
+    .summary-three__photo {
+        max-width: 500px;
+        height: 404px;
+    }
+}
+
+@media screen and (max-width: 906px) {
+    .summary-three__photo {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .summary-three__photo {
+        grid-row-start: 2;
+        grid-row-end: 3;
+        margin: 0 auto;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .summary-three__photo {
+        background-size: 180%;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 320px;
+        height: 372px;
+        margin: 0;
+    }
+}

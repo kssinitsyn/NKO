@@ -1,0 +1,24 @@
+.donate__help-line {
+    width: 384px;
+    height: 12px;
+
+    margin: 40px auto 0;
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #0493CE;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .donate__help-line {
+        width: 340px;
+        margin: 32px auto 0;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    .donate__help-line {
+        width: 288px;
+    }
+}

@@ -1,0 +1,43 @@
+@import url('./_active/payment__sum_active.css');
+@import url('../__random/__sum-heading/random__sum-heading.css');
+
+.payment__sum {
+    border: 2px solid #0493CE;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: white;
+    width: 92px;
+    height: 40px;
+    outline: none;
+    font-family: DINPro;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    letter-spacing: 0.25px;
+    color: #141414;
+    padding: 10px 0;    
+}
+
+.payment__sum:last-child{
+    margin-top: 32px;    
+}
+
+.payment__sum:hover {
+    background: #969696;
+    border: solid #969696;
+    transition: 0.3s;
+}
+
+.payment__sum:focus {
+    background: #0493CE;
+    border: solid #0493CE;
+    color: white;
+}
+
+@media screen and (max-width: 320px) {
+    .payment__sum {
+        width: 112px;
+        height: 44px;
+        border: 1px solid #969696;
+    }
+}

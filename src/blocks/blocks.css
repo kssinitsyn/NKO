@@ -1,0 +1,22 @@
+@import url('./root/root.css');
+@import url('./list/list.css');
+@import url('./header/header.css');
+@import url('./social/social.css');
+@import url('./skills/skills.css');
+@import url('./content-text/content-text.css');
+@import url('./donate/donate.css');
+@import url('./area/area.css');
+@import url('./about/about.css');
+@import url('./summary-one/summary-one.css');
+@import url('./summary-two/summary-two.css');
+@import url('./summary-three/summary-three.css');
+@import url('./footer/footer.css');
+@import url('./help/help.css');
+@import url('./popup/popup.css');
+@import url('./payment/payment.css');
+@import url('./single-button/single-button.css');
+@import url('./thanks/thanks.css');
+
+button {
+    cursor: pointer;
+}

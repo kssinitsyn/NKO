@@ -1,0 +1,68 @@
+.header__button {
+    margin-right: 120px;
+    width: 160px;
+    height: 40px;
+
+    background: rgba(255, 255, 255, 0.5);
+
+    border: 1px solid #141414;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    font-size: 14px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+
+    outline: none;
+}
+
+.header__button:hover {
+    background: rgb(0, 160, 227);
+    color: #141414;
+    border: none;
+    outline: none;
+}
+
+.header__button:active {
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 1111px) {
+    .header__button {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header__button {
+        margin-right: 32px;
+        width: 140px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 898px) {
+    .header__button {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__button {
+        margin-left: 0;
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header__button {
+        margin-right: 16px;
+        width: 100px;
+        height: 36px;
+    }
+}
