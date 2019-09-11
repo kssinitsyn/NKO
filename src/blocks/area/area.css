@@ -14,20 +14,20 @@
     align-content: flex-start;
     position: relative;
     overflow: hidden;
-    padding: 200px 0px 177px 0px;
+    padding: 100px 0px 177px 0px;
 }
 
 @media (max-width: 1025px) {
     .area {
         align-content: space-between;
-        padding: 200px 0px 208px 0px;
+        padding: 100px 0px 208px 0px;
     }
 }
 
 @media (min-width: 321px) and (max-width: 768px) {
     .area {
         align-content: center;
-        padding: 180px 0px 340px 0px;
+        padding: 100px 0px 340px 0px;
         max-width: 768px;
     }
     
@@ -36,7 +36,7 @@
 @media (max-width: 767px) {
     .area {
         max-height: none;
-        padding: 180px 0px 180px 0px;
+        padding: 100px 0px 180px 0px;
         flex-direction: column;
         flex-wrap: nowrap;
     } 

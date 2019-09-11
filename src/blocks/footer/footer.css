@@ -10,6 +10,7 @@
 @import url('./__link/footer__link.css');
 @import url('./__social/footer__social.css');
 @import url('./__up-icon/footer__up-icon.css');
+@import url('./__credits/footer__credits.css');
 
 .footer {
     background-color: #DDDDDD;

@@ -14,8 +14,7 @@
     line-height: 125%;
     text-align: center;
     letter-spacing: 0.25px;
-    color: #141414;
-    padding: 10px 0;    
+    color: #141414;     
 }
 
 .payment__sum:last-child{

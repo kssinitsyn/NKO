@@ -1,6 +1,6 @@
 .random__sum {    
     height: 40px;
-    width: 160px;    
+    max-width: 160px;    
     box-sizing: border-box;
     border-radius: 20px;
     align-self: center;
@@ -28,7 +28,7 @@ input[type=number]::-webkit-outer-spin-button {
   .random__sum::placeholder {
     font-size: 13px;
     color: black;
-    line-height: 125%;
+    line-height: 125%;    
   }
 }
 

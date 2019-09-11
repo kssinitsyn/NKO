@@ -9,19 +9,25 @@
 
 @media screen and (max-width: 540px) {
   .popup__close {
-    left: 654px;
+    left: 320px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .popup__close {
+    left: 312px;
   }
 }
 
 @media screen and (max-width: 375px) {
   .popup__close {
-    left: 291px;
+    left: 280px;
     top: 7px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .popup__close {
+    
     left: 280px;
     top: 12px;
   }

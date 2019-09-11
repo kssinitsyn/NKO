@@ -37,3 +37,9 @@
     margin: 16px auto 0;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .button.payment__pay-button{
+    margin-top: 10px;
+  }
+}

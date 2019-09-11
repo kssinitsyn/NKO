@@ -100,3 +100,9 @@ input.donate__button_input:placeholder-shown {
 input[type="number"] {
     -moz-appearance: textfield;    
 }
+
+/* @media screen and (max-width: 414px) {
+    input.donate__button_input:placeholder-shown {
+        padding: 5px;
+     }
+} */

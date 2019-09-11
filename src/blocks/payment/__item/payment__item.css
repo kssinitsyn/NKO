@@ -10,6 +10,12 @@
     margin-right: 0px;
 }
 
+/* @media screen and (max-width: 414px) {
+    .payment__item {
+        margin-right: 0;
+    }
+} */
+
 @media screen and (max-width: 320px) {
     .random__sum-heading {
         display: none;
